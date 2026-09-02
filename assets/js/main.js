@@ -99,7 +99,6 @@ document.addEventListener('DOMContentLoaded', () => {
       e.preventDefault();
       const note = form.querySelector('.form-note');
       if (note) {
-        note.textContent = 'Thank you. Your message has been received — our team will be in touch shortly.';
         note.classList.add('visible');
       }
       form.reset();
