@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-i18n="responsibility.meta.title">Responsibility — Sagard</title>
+<meta name="description" data-i18n-content="responsibility.meta.desc" content="Sagard's approach to responsible investing.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle cx='20' cy='20' r='19' fill='%230f291f'/%3E%3Cpath d='M9 24c4-9 9-13 11-13s5 5 11 6' stroke='%23c9a66b' stroke-width='2' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,650&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="logo">
+      <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="20" cy="20" r="19" stroke="currentColor" stroke-opacity=".35"/>
+        <path d="M9 25c4.5-9.5 9.5-14 11.5-14s5.5 5.5 11.5 6.5" stroke="#c9a66b" stroke-width="2" fill="none" stroke-linecap="round"/>
+        <path d="M7.5 20c5-7 10.5-10 12.5-10s6 3.5 12 3" stroke="currentColor" stroke-opacity=".55" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+      </svg>
+      <span class="logo-word">Sagard</span>
+    </a>
+    <nav class="main-nav" id="mainNav">
+      <a href="about.html" data-i18n="nav.about">About Us</a>
+      <a href="strategies.html" data-i18n="nav.strategies">Strategies</a>
+      <a href="people.html" data-i18n="nav.people">People</a>
+      <a href="portfolio.html" data-i18n="nav.portfolio">Portfolio</a>
+      <a href="insights.html" data-i18n="nav.insights">Insights</a>
+      <a href="news.html" data-i18n="nav.news">News</a>
+      <a href="responsibility.html" class="active" data-i18n="nav.responsibility">Responsibility</a>
+      <a href="contact.html" data-i18n="nav.contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <div class="lang-switch" role="group" aria-label="Language / Langue">
+        <button type="button" class="lang-btn" data-lang-btn="fr">FR</button>
+        <button type="button" class="lang-btn" data-lang-btn="en">EN</button>
+      </div>
+      <a href="contact.html" class="btn btn-outline-light">
+        <span data-i18n="nav.getintouch">Get in touch</span>
+        <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="nav-scrim" id="navScrim"></div>
+</header>
+
+<!-- ============ PAGE HERO ============ -->
+<section class="page-hero">
+  <svg class="hero-lines" viewBox="0 0 1440 800" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M-50 650 C 250 500, 450 720, 750 560 S 1250 420, 1500 540" stroke="#c9a66b" stroke-width="1" fill="none" opacity=".5"/>
+    <path d="M-50 560 C 220 430, 480 630, 760 480 S 1260 340, 1500 460" stroke="#f3efe6" stroke-width="1" fill="none" opacity=".15"/>
+  </svg>
+  <div class="grain"></div>
+  <div class="container">
+    <p class="breadcrumb" data-reveal><a href="index.html" data-i18n="common.home">Home</a><span data-i18n="responsibility.crumb"> / Responsibility</span></p>
+    <p class="eyebrow" data-reveal data-i18n="responsibility.hero.eyebrow">Responsibility</p>
+    <h1 data-reveal data-i18n="responsibility.hero.title">Responsible investing, built into how we work.</h1>
+    <p data-reveal data-i18n="responsibility.hero.sub">Institutional investors expect clarity on governance, exclusions, reporting and sustainability commitments.</p>
+  </div>
+</section>
+
+<!-- ============ INTRO ============ -->
+<section class="section">
+  <div class="container">
+    <div class="split">
+      <div class="split-media" data-reveal>
+        <svg class="topo" viewBox="0 0 400 500" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M-20 120c80-40 140 40 220 10s140-70 220-30" stroke="#faf8f4" fill="none"/>
+          <path d="M-20 220c80-40 140 40 220 10s140-70 220-30" stroke="#faf8f4" fill="none"/>
+          <path d="M-20 320c80-40 140 40 220 10s140-70 220-30" stroke="#faf8f4" fill="none"/>
+          <path d="M-20 420c80-40 140 40 220 10s140-70 220-30" stroke="#faf8f4" fill="none"/>
+        </svg>
+      </div>
+      <div>
+        <p class="eyebrow" data-reveal data-i18n="responsibility.intro.eyebrow">Our approach</p>
+        <h2 data-reveal style="font-size:clamp(28px,3.6vw,44px);color:var(--forest-900);max-width:560px;" data-i18n="responsibility.intro.title">Responsible investing as part of the process, not apart from it.</h2>
+        <p data-reveal style="margin-top:22px;color:var(--ink-500);max-width:560px;" data-i18n="responsibility.intro.text">Sagard integrates governance and ESG considerations into how it evaluates, structures and monitors investments.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PILLARS ============ -->
+<section class="section section-stone">
+  <div class="container">
+    <div class="values-list">
+      <div class="value-row" data-reveal>
+        <span class="value-index">01</span><h3 data-i18n="responsibility.p1.title">Governance</h3>
+        <p data-i18n="responsibility.p1.desc">Clear investment decision processes and oversight.</p>
+      </div>
+      <div class="value-row" data-reveal>
+        <span class="value-index">02</span><h3 data-i18n="responsibility.p2.title">ESG Integration</h3>
+        <p data-i18n="responsibility.p2.desc">Environmental, social and governance factors considered throughout diligence.</p>
+      </div>
+      <div class="value-row" data-reveal>
+        <span class="value-index">03</span><h3 data-i18n="responsibility.p3.title">Reporting &amp; Transparency</h3>
+        <p data-i18n="responsibility.p3.desc">Regular reporting to investors on risk, performance and sustainability.</p>
+      </div>
+      <div class="value-row" data-reveal>
+        <span class="value-index">04</span><h3 data-i18n="responsibility.p4.title">Risk Management</h3>
+        <p data-i18n="responsibility.p4.desc">Ongoing assessment of financial, operational and reputational risk.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="cta-band">
+  <div class="container">
+    <p class="eyebrow" data-reveal style="justify-content:center;color:var(--forest-900);" data-i18n="responsibility.cta.eyebrow">Questions about our approach?</p>
+    <h2 data-reveal data-i18n="responsibility.cta.title">Speak with our Investor Relations team.</h2>
+    <a href="contact.html" class="btn btn-primary" data-reveal>
+      <span data-i18n="responsibility.cta.button">Contact us</span>
+      <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="20" cy="20" r="19" stroke="currentColor" stroke-opacity=".35"/>
+            <path d="M9 25c4.5-9.5 9.5-14 11.5-14s5.5 5.5 11.5 6.5" stroke="#c9a66b" stroke-width="2" fill="none" stroke-linecap="round"/>
+          </svg>
+          <span class="logo-word">Sagard</span>
+        </a>
+        <p data-i18n="footer.tagline">A global platform for alternative asset management — Capital. Culture. Network.</p>
+        <div class="social-row" style="margin-top:24px;">
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none"><path d="M4 9h3v11H4zM5.5 3a1.8 1.8 0 110 3.6A1.8 1.8 0 015.5 3zM11 9h3v1.6c.6-1 1.7-1.8 3.3-1.8 3 0 3.7 1.8 3.7 4.7V20h-3v-5.9c0-1.4 0-3.2-2-3.2s-2.3 1.5-2.3 3.1V20h-3z" fill="currentColor"/></svg></a>
+          <a href="#" aria-label="X"><svg viewBox="0 0 24 24" fill="none"><path d="M4 4l16 16M20 4L4 20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.company">Company</h4>
+        <ul>
+          <li><a href="about.html" data-i18n="footer.aboutSagard">About Us</a></li>
+          <li><a href="about.html#history" data-i18n="footer.history">History</a></li>
+          <li><a href="about.html#values" data-i18n="footer.values">Values</a></li>
+          <li><a href="people.html" data-i18n="footer.people">People</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.strategiesHeading">Strategies</h4>
+        <ul>
+          <li><a href="strategies.html#venture-capital" data-i18n="footer.ventureCapital">Venture Capital</a></li>
+          <li><a href="strategies.html#private-equity" data-i18n="footer.privateEquity">Private Equity</a></li>
+          <li><a href="strategies.html#private-credit" data-i18n="footer.privateCredit">Private Credit</a></li>
+          <li><a href="strategies.html#real-estate" data-i18n="footer.realEstate">Real Estate</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.connect">Connect</h4>
+        <ul>
+          <li><a href="portfolio.html" data-i18n="footer.portfolio">Portfolio</a></li>
+          <li><a href="insights.html" data-i18n="footer.insights">Insights</a></li>
+          <li><a href="news.html" data-i18n="footer.news">News</a></li>
+          <li><a href="responsibility.html" data-i18n="footer.responsibility">Responsibility</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <small>© <span data-year>2026</span> Sagard. <span data-i18n="footer.rights">All rights reserved.</span></small>
+      <small data-i18n="footer.cities">Montreal · Paris · New York · London · Singapore</small>
+    </div>
+    <p class="footer-legal" data-i18n="footer.legal">This website is for informational purposes only.</p>
+  </div>
+</footer>
+
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

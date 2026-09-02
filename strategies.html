@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title data-i18n="strategies.meta.title">Strategies — Sagard</title>
-<meta name="description" data-i18n-content="strategies.meta.desc" content="Explore Sagard's investment strategies across private equity, private credit, venture capital, real estate, expansion capital and wealth.">
+<meta name="description" data-i18n-content="strategies.meta.desc" content="Explore Sagard's strategies across venture capital, private equity, private credit, real estate and private wealth.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle cx='20' cy='20' r='19' fill='%230f291f'/%3E%3Cpath d='M9 24c4-9 9-13 11-13s5 5 11 6' stroke='%23c9a66b' stroke-width='2' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,10 +25,13 @@
       <span class="logo-word">Sagard</span>
     </a>
     <nav class="main-nav" id="mainNav">
-      <a href="about.html" data-i18n="nav.about">About</a>
+      <a href="about.html" data-i18n="nav.about">About Us</a>
       <a href="strategies.html" class="active" data-i18n="nav.strategies">Strategies</a>
-      <a href="about.html#values" data-i18n="nav.values">Values</a>
-      <a href="contact.html#careers" data-i18n="nav.careers">Careers</a>
+      <a href="people.html" data-i18n="nav.people">People</a>
+      <a href="portfolio.html" data-i18n="nav.portfolio">Portfolio</a>
+      <a href="insights.html" data-i18n="nav.insights">Insights</a>
+      <a href="news.html" data-i18n="nav.news">News</a>
+      <a href="responsibility.html" data-i18n="nav.responsibility">Responsibility</a>
       <a href="contact.html" data-i18n="nav.contact">Contact</a>
     </nav>
     <div class="header-actions">
@@ -58,90 +61,78 @@
   <div class="container">
     <p class="breadcrumb" data-reveal><a href="index.html" data-i18n="common.home">Home</a><span data-i18n="strategies.crumb"> / Strategies</span></p>
     <p class="eyebrow" data-reveal data-i18n="strategies.hero.eyebrow">What we do</p>
-    <h1 data-reveal data-i18n="strategies.hero.title">Six strategies. One entrepreneurial thread.</h1>
-    <p data-reveal data-i18n="strategies.hero.sub">Across private equity, private credit, venture capital, real estate, expansion capital and wealth, every Sagard strategy shares the same conviction: back great operators with patient, flexible capital.</p>
+    <h1 data-reveal data-i18n="strategies.hero.title">Five asset classes. One entrepreneurial platform.</h1>
+    <p data-reveal data-i18n="strategies.hero.sub">Strategies constitute the economic core of Sagard.</p>
   </div>
 </section>
 
-<!-- ============ STRATEGY DETAILS ============ -->
+<!-- ============ ASSET CLASSES ============ -->
 <section class="section">
   <div class="container">
 
-    <div class="strategy-detail" id="private-equity" data-reveal>
-      <div><span class="strategy-num">01</span></div>
+    <div class="strategy-detail" id="venture-capital" data-reveal>
+      <div><span class="strategy-num" data-i18n="asset.vc.num">01</span></div>
       <div>
-        <h3 data-i18n="detail.pe.title">Sagard Private Equity Solutions</h3>
-        <p style="margin-top:16px;color:var(--ink-500);" data-i18n="detail.pe.desc">Investing across both LP-led and GP-led secondary transactions as well as direct control investments, with a sustained focus on the global mid-market. Following our combination with Unigestion, the platform manages one of the industry's most comprehensive private equity solutions offerings.</p>
+        <h3 data-i18n="asset.vc.title">Venture Capital</h3>
+        <p style="margin-top:16px;color:var(--ink-500);" data-i18n="asset.vc.intro">Backing category-defining founders in fintech and technology.</p>
+        <div class="vehicle-list">
+          <div class="vehicle-row"><span class="vehicle-name" data-i18n="vehicle.portage.name">Portage Ventures</span><span class="vehicle-desc" data-i18n="vehicle.portage.desc">Venture capital investing in fintech and technology founders, from seed to growth stage.</span></div>
+          <div class="vehicle-row"><span class="vehicle-name" data-i18n="vehicle.portagecs.name">Portage Capital Solutions</span><span class="vehicle-desc" data-i18n="vehicle.portagecs.desc">Capital solutions supporting other venture managers and their portfolios.</span></div>
+          <div class="vehicle-row"><span class="vehicle-name" data-i18n="vehicle.diagram.name">Diagram</span><span class="vehicle-desc" data-i18n="vehicle.diagram.desc">A venture studio building and co-founding new companies alongside entrepreneurs.</span></div>
+        </div>
       </div>
-      <div class="strategy-meta">
-        <div class="meta-pair"><span class="k" data-i18n="meta.focus">Focus</span><span class="v" data-i18n="val.pe.focus">Mid-market, LP &amp; GP-led</span></div>
-        <div class="meta-pair"><span class="k" data-i18n="meta.aum">AUM</span><span class="v" data-i18n="val.pe.aum">$12.5bn+</span></div>
-        <div class="meta-pair"><span class="k" data-i18n="meta.geography">Geography</span><span class="v" data-i18n="val.pe.geo">North America &amp; Europe</span></div>
+    </div>
+
+    <div class="strategy-detail" id="private-equity" data-reveal>
+      <div><span class="strategy-num" data-i18n="asset.pe.num">02</span></div>
+      <div>
+        <h3 data-i18n="asset.pe.title">Private Equity</h3>
+        <p style="margin-top:16px;color:var(--ink-500);" data-i18n="asset.pe.intro">Direct investing and portfolio solutions across the global mid-market.</p>
+        <div class="vehicle-list">
+          <div class="vehicle-row"><span class="vehicle-name" data-i18n="vehicle.midcap.name">Sagard MidCap</span><span class="vehicle-desc" data-i18n="vehicle.midcap.desc">Control and significant-minority investing in established mid-market companies.</span></div>
+          <div class="vehicle-row"><span class="vehicle-name" data-i18n="vehicle.newgen.name">Sagard NewGen</span><span class="vehicle-desc" data-i18n="vehicle.newgen.desc">Majority and minority growth investments in profitable, Europe-based mid-sized companies.</span></div>
+          <div class="vehicle-row"><span class="vehicle-name"></span><span class="vehicle-desc" data-i18n="vehicle.newgen.stats" style="font-style:italic;">Fund: €300M+ · Tickets: €10M–€50M · Team: 25+ professionals</span></div>
+          <div class="vehicle-row"><span class="vehicle-name" data-i18n="vehicle.pecanada.name">Sagard Private Equity Canada</span><span class="vehicle-desc" data-i18n="vehicle.pecanada.desc">Private equity investing focused on Canadian mid-market businesses.</span></div>
+          <div class="vehicle-row"><span class="vehicle-name" data-i18n="vehicle.pesolutions.name">Sagard Private Equity Solutions</span><span class="vehicle-desc" data-i18n="vehicle.pesolutions.desc">LP-led and GP-led secondary transactions and direct co-investments, expanded through the combination with Unigestion.</span></div>
+          <div class="vehicle-row"><span class="vehicle-name" data-i18n="vehicle.bex.name">BEX Capital</span><span class="vehicle-desc" data-i18n="vehicle.bex.desc">A specialized private equity partner extending Sagard's mid-market reach.</span></div>
+        </div>
       </div>
     </div>
 
     <div class="strategy-detail" id="private-credit" data-reveal>
-      <div><span class="strategy-num">02</span></div>
+      <div><span class="strategy-num" data-i18n="asset.credit.num">03</span></div>
       <div>
-        <h3 data-i18n="detail.credit.title">Private Credit</h3>
-        <p style="margin-top:16px;color:var(--ink-500);" data-i18n="detail.credit.desc">Flexible, direct lending solutions for growing companies that value speed and certainty of execution. Our evergreen Sagard Private Credit Fund (SPCF), launched in 2024, opened this strategy to Canadian accredited investors for the first time.</p>
-      </div>
-      <div class="strategy-meta">
-        <div class="meta-pair"><span class="k" data-i18n="meta.structure">Structure</span><span class="v" data-i18n="val.credit.structure">Evergreen &amp; closed-end</span></div>
-        <div class="meta-pair"><span class="k" data-i18n="meta.flagship">Flagship</span><span class="v" data-i18n="val.credit.flagship">Sagard Private Credit Fund</span></div>
-        <div class="meta-pair"><span class="k" data-i18n="meta.launched">Launched</span><span class="v" data-i18n="val.credit.launched">September 2024</span></div>
-      </div>
-    </div>
-
-    <div class="strategy-detail" id="venture" data-reveal>
-      <div><span class="strategy-num">03</span></div>
-      <div>
-        <h3 data-i18n="detail.vc.title">Portage — Venture Capital</h3>
-        <p style="margin-top:16px;color:var(--ink-500);" data-i18n="detail.vc.desc">Portage backs category-defining fintech and technology founders from seed through growth stages, pairing capital with deep operating and regulatory expertise across financial services.</p>
-      </div>
-      <div class="strategy-meta">
-        <div class="meta-pair"><span class="k" data-i18n="meta.focus">Focus</span><span class="v" data-i18n="val.vc.focus">Fintech &amp; technology</span></div>
-        <div class="meta-pair"><span class="k" data-i18n="meta.stage">Stage</span><span class="v" data-i18n="val.vc.stage">Seed to growth</span></div>
-        <div class="meta-pair"><span class="k" data-i18n="meta.geography">Geography</span><span class="v" data-i18n="val.vc.geo">Global</span></div>
+        <h3 data-i18n="asset.credit.title">Private Credit</h3>
+        <p style="margin-top:16px;color:var(--ink-500);" data-i18n="asset.credit.intro">Flexible, direct lending across the capital structure.</p>
+        <div class="vehicle-list">
+          <div class="vehicle-row"><span class="vehicle-name" data-i18n="vehicle.creditpartners.name">Sagard Credit Partners</span><span class="vehicle-desc" data-i18n="vehicle.creditpartners.desc">Private credit for North American middle-market companies, financing acquisitions, refinancings, recapitalizations and growth.</span></div>
+          <div class="vehicle-row"><span class="vehicle-name" data-i18n="vehicle.halseypoint.name">Sagard | HalseyPoint</span><span class="vehicle-desc" data-i18n="vehicle.halseypoint.desc">A partnership extending Sagard's direct lending capabilities.</span></div>
+          <div class="vehicle-row"><span class="vehicle-name" data-i18n="vehicle.healthcare.name">Sagard Healthcare Partners</span><span class="vehicle-desc" data-i18n="vehicle.healthcare.desc">Financing backed by approved, commercialized healthcare products — royalties, revenue streams and credit.</span></div>
+          <div class="vehicle-row"><span class="vehicle-name" data-i18n="vehicle.seniorlending.name">Sagard Senior Lending Partners</span><span class="vehicle-desc" data-i18n="vehicle.seniorlending.desc">Direct lending focused on senior debt across the United States and Canada.</span></div>
+          <div class="vehicle-row"><span class="vehicle-name" data-i18n="vehicle.spcf.name">Sagard Private Credit Fund</span><span class="vehicle-desc" data-i18n="vehicle.spcf.desc">An evergreen private credit fund open to Canadian accredited investors.</span></div>
+        </div>
       </div>
     </div>
 
     <div class="strategy-detail" id="real-estate" data-reveal>
-      <div><span class="strategy-num">04</span></div>
+      <div><span class="strategy-num" data-i18n="asset.re.num">04</span></div>
       <div>
-        <h3 data-i18n="detail.re.title">Sagard Real Estate</h3>
-        <p style="margin-top:16px;color:var(--ink-500);" data-i18n="detail.re.desc">A full spectrum of commercial real estate strategies — separate accounts and commingled funds — spanning all major property sectors and points in the capital stack, for institutional and private clients alike.</p>
-      </div>
-      <div class="strategy-meta">
-        <div class="meta-pair"><span class="k" data-i18n="meta.vehicles">Vehicles</span><span class="v" data-i18n="val.re.vehicles">Separate accounts, commingled funds</span></div>
-        <div class="meta-pair"><span class="k" data-i18n="meta.sectors">Sectors</span><span class="v" data-i18n="val.re.sectors">All major property types</span></div>
-        <div class="meta-pair"><span class="k" data-i18n="meta.geography">Geography</span><span class="v" data-i18n="val.re.geo">United States</span></div>
+        <h3 data-i18n="asset.re.title">Real Estate</h3>
+        <p style="margin-top:16px;color:var(--ink-500);" data-i18n="asset.re.intro">A full spectrum of commercial real estate strategies.</p>
+        <div class="vehicle-list">
+          <div class="vehicle-row"><span class="vehicle-name" data-i18n="vehicle.realestate.name">Sagard Real Estate</span><span class="vehicle-desc" data-i18n="vehicle.realestate.desc">Commercial real estate investing across property sectors and the capital stack.</span></div>
+        </div>
       </div>
     </div>
 
-    <div class="strategy-detail" id="newgen" data-reveal>
-      <div><span class="strategy-num">05</span></div>
+    <div class="strategy-detail" id="private-wealth" data-reveal>
+      <div><span class="strategy-num" data-i18n="asset.wealth.num">05</span></div>
       <div>
-        <h3 data-i18n="detail.newgen.title">Sagard NewGen</h3>
-        <p style="margin-top:16px;color:var(--ink-500);" data-i18n="detail.newgen.desc">Majority and minority growth investments of €10M–€50M (excluding co-investors), with or without leverage, financing the expansion of profitable, Europe-based companies generating €10M–€150M in revenue.</p>
-      </div>
-      <div class="strategy-meta">
-        <div class="meta-pair"><span class="k" data-i18n="meta.ticket">Ticket size</span><span class="v" data-i18n="val.newgen.ticket">€10M – €50M</span></div>
-        <div class="meta-pair"><span class="k" data-i18n="meta.targetrevenue">Target revenue</span><span class="v" data-i18n="val.newgen.revenue">€10M – €150M</span></div>
-        <div class="meta-pair"><span class="k" data-i18n="meta.geography">Geography</span><span class="v" data-i18n="val.newgen.geo">Europe</span></div>
-      </div>
-    </div>
-
-    <div class="strategy-detail" id="wealth" data-reveal>
-      <div><span class="strategy-num">06</span></div>
-      <div>
-        <h3 data-i18n="detail.wealth.title">Sagard Wealth</h3>
-        <p style="margin-top:16px;color:var(--ink-500);" data-i18n="detail.wealth.desc">Strategic private-investment access for entrepreneurs, families and institutions building generational wealth — spanning fintech, healthcare and technology opportunities sourced across the Sagard platform.</p>
-      </div>
-      <div class="strategy-meta">
-        <div class="meta-pair"><span class="k" data-i18n="meta.clients">Clients</span><span class="v" data-i18n="val.wealth.clients">Entrepreneurs &amp; families</span></div>
-        <div class="meta-pair"><span class="k" data-i18n="meta.sectors">Sectors</span><span class="v" data-i18n="val.wealth.sectors">Fintech, healthcare, tech</span></div>
-        <div class="meta-pair"><span class="k" data-i18n="meta.access">Access</span><span class="v" data-i18n="val.wealth.access">Direct &amp; fund vehicles</span></div>
+        <h3 data-i18n="asset.wealth.title">Private Wealth</h3>
+        <p style="margin-top:16px;color:var(--ink-500);" data-i18n="asset.wealth.intro">Strategic private-investment access for entrepreneurs, families and institutions.</p>
+        <div class="vehicle-list">
+          <div class="vehicle-row"><span class="vehicle-name" data-i18n="vehicle.wealth.name">Sagard Wealth</span><span class="vehicle-desc" data-i18n="vehicle.wealth.desc">Direct and fund access to opportunities sourced across the Sagard platform.</span></div>
+        </div>
       </div>
     </div>
 
@@ -155,7 +146,7 @@
       <div>
         <p class="eyebrow" data-i18n="strategies.valuecreation.eyebrow">Beyond capital</p>
         <h2 data-i18n="strategies.valuecreation.title">Every strategy is backed by our Value Creation team.</h2>
-        <p data-i18n="strategies.valuecreation.text">Go-to-market, tech &amp; cyber, business acceleration, M&amp;A and partnerships — hands-on support that helps portfolio companies grow faster and more safely.</p>
+        <p data-i18n="strategies.valuecreation.text">Go-to-market, technology &amp; cybersecurity, operational acceleration and M&amp;A.</p>
       </div>
       <a href="about.html" class="btn btn-outline-light">
         <span data-i18n="strategies.valuecreation.button">More about Sagard</span>
@@ -189,7 +180,7 @@
           </svg>
           <span class="logo-word">Sagard</span>
         </a>
-        <p data-i18n="footer.tagline">A global multi-strategy alternative asset manager, partnering with entrepreneurs since 2002.</p>
+        <p data-i18n="footer.tagline">A global platform for alternative asset management — Capital. Culture. Network.</p>
         <div class="social-row" style="margin-top:24px;">
           <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none"><path d="M4 9h3v11H4zM5.5 3a1.8 1.8 0 110 3.6A1.8 1.8 0 015.5 3zM11 9h3v1.6c.6-1 1.7-1.8 3.3-1.8 3 0 3.7 1.8 3.7 4.7V20h-3v-5.9c0-1.4 0-3.2-2-3.2s-2.3 1.5-2.3 3.1V20h-3z" fill="currentColor"/></svg></a>
           <a href="#" aria-label="X"><svg viewBox="0 0 24 24" fill="none"><path d="M4 4l16 16M20 4L4 20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></a>
@@ -198,36 +189,36 @@
       <div class="footer-col">
         <h4 data-i18n="footer.company">Company</h4>
         <ul>
-          <li><a href="about.html" data-i18n="footer.aboutSagard">About Sagard</a></li>
+          <li><a href="about.html" data-i18n="footer.aboutSagard">About Us</a></li>
           <li><a href="about.html#history" data-i18n="footer.history">History</a></li>
           <li><a href="about.html#values" data-i18n="footer.values">Values</a></li>
-          <li><a href="contact.html#careers" data-i18n="footer.careers">Careers</a></li>
+          <li><a href="people.html" data-i18n="footer.people">People</a></li>
         </ul>
       </div>
       <div class="footer-col">
         <h4 data-i18n="footer.strategiesHeading">Strategies</h4>
         <ul>
+          <li><a href="strategies.html#venture-capital" data-i18n="footer.ventureCapital">Venture Capital</a></li>
           <li><a href="strategies.html#private-equity" data-i18n="footer.privateEquity">Private Equity</a></li>
           <li><a href="strategies.html#private-credit" data-i18n="footer.privateCredit">Private Credit</a></li>
-          <li><a href="strategies.html#venture" data-i18n="footer.ventureCapital">Venture Capital</a></li>
           <li><a href="strategies.html#real-estate" data-i18n="footer.realEstate">Real Estate</a></li>
         </ul>
       </div>
       <div class="footer-col">
         <h4 data-i18n="footer.connect">Connect</h4>
         <ul>
-          <li><a href="contact.html" data-i18n="footer.contactUs">Contact us</a></li>
-          <li><a href="contact.html" data-i18n="footer.globalOffices">Global offices</a></li>
-          <li><a href="#" data-i18n="footer.investorLogin">Investor login</a></li>
-          <li><a href="#" data-i18n="footer.newsroom">Newsroom</a></li>
+          <li><a href="portfolio.html" data-i18n="footer.portfolio">Portfolio</a></li>
+          <li><a href="insights.html" data-i18n="footer.insights">Insights</a></li>
+          <li><a href="news.html" data-i18n="footer.news">News</a></li>
+          <li><a href="responsibility.html" data-i18n="footer.responsibility">Responsibility</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
       <small>© <span data-year>2026</span> Sagard. <span data-i18n="footer.rights">All rights reserved.</span></small>
-      <small data-i18n="footer.cities">Montreal · Paris · New York · Toronto · London</small>
+      <small data-i18n="footer.cities">Montreal · Paris · New York · London · Singapore</small>
     </div>
-    <p class="footer-legal" data-i18n="footer.legal">This website is for informational purposes only and does not constitute an offer to sell or a solicitation of an offer to buy any securities. Past performance is not indicative of future results. Alternative investments involve a high degree of risk and are suitable only for sophisticated investors.</p>
+    <p class="footer-legal" data-i18n="footer.legal">This website is for informational purposes only.</p>
   </div>
 </footer>
 
